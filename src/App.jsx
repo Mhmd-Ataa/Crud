@@ -62,19 +62,19 @@ function App() {
               <div className="box">
                 <label htmlFor="" className="ms-1 mb-1">Name :</label>
                 <input type="text" name="name" className="form-control"
-                  onChange={(e) => setName(e.target.value)} value={name} />
+                  onChange={(e) => setName(e.target.value)} value={name} required />
               </div>
 
               <div className="box my-2">
                 <label htmlFor="" className="ms-1 mb-1">E-mail :</label>
                 <input type="email" name="email" className="form-control"
-                  onChange={(e) => setEmail(e.target.value)} value={email} />
+                  onChange={(e) => setEmail(e.target.value)} value={email} required />
               </div>
 
               <div className="box">
                 <label htmlFor="" className="ms-1 mb-1">Phone :</label>
                 <input type="tel" name="phone" className="form-control"
-                  onChange={(e) => setPhone(e.target.value)} value={phone} />
+                  onChange={(e) => setPhone(e.target.value)} value={phone} required/>
               </div>
 
               <button className="btn btn-success form-control mt-4" style={{color:"black"}}>Add User</button>
