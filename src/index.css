@@ -1,0 +1,18 @@
+.fields , .view{
+  background-color: rgba(86, 83, 83, 0.068);
+  border-radius: 15px ;
+}
+form h3{
+  font-weight: 700;
+  text-shadow: 5px 5px 5px gray;
+}
+form label{
+  font-weight: 500;
+}
+table td{
+  color: rgba(0, 0, 0, 0.612) !important;
+}
+table td i{
+  color: brown;
+  cursor: pointer;
+}
